@@ -1,4 +1,6 @@
+import Navbar from "@/components/shared/Navbar/Navbar";
 import "./globals.css";
+import Footer from "@/components/shared/Footer/Footer";
 
 export const metadata = {
   title: "News Portal | Home ",
@@ -11,7 +13,9 @@ export default function RootLayout({ children }) {
       <body
         className=""
       >
+        <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
