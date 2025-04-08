@@ -21,7 +21,7 @@ const LatestNews = async () => {
             </div>
 
             {/* four item */}
-            <div className="grid grid-cols-2 gap-5 my-5">
+            <div className="grid md:grid-cols-2 gap-5 my-5">
                 {
                     data.slice(1, 5).map(news => <div key={news._id} className="card bg-base-100 shadow-sm">
                         <figure>
