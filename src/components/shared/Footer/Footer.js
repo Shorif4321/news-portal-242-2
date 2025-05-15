@@ -9,12 +9,8 @@ const navItems = [
         path: '/'
     },
     {
-        route: 'Pages',
-        path: '/pages'
-    },
-    {
         route: 'Categories',
-        path: '/categories'
+        path: '/categories/news?category=technology'
     },
     {
         route: 'About',
@@ -23,7 +19,11 @@ const navItems = [
     {
         route: 'Contact',
         path: '/contact'
-    }
+    },
+     {
+        route: 'Pages',
+        path: '/pages'
+    },
 ]
 
 const Footer = () => {

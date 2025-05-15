@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const Sidebar = async () => {
-    const { data } = await getAllNews();
+    const  data  = await getAllNews();
     const date = getCurrentDate()
     return (
         <div>

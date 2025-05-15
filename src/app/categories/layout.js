@@ -8,7 +8,7 @@ const CategoriesLayout = ({ children }) => {
                 <div className="md:w-1/3">
                     <CategoryList></CategoryList>
                 </div>
-                <div className="md:w-2/3 bg-gray-700">
+                <div className="md:w-2/3">
                     {children}
                 </div>
             </div>

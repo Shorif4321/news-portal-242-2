@@ -1,4 +1,4 @@
-website link: [Live Website](https://news-new-website.vercel.app)
+website link: [Live Website](https://news-portal-frontend-red.vercel.app)
 
 ## Dynamic Date
 

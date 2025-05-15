@@ -3,11 +3,13 @@ import Image from 'next/image';
 import React from 'react';
 
 const LatestNews = async () => {
-    const { data } = await getAllNews()
+    const  data  = await getAllNews()
+    console.log(data);
+    
     return (
         <div>
             <div className="card bg-base-100  shadow-sm">
-                <Image className='w-full' src={data[0]?.thumbnail_url} width={500} height={500}
+                <Image className='w-full' src={data[0].thumbnail_url} width={500} height={500}
                     alt="web image" />
 
                 <div className="card-body">
